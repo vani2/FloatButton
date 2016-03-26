@@ -12,6 +12,8 @@
 		E6498E441CA687EA0022C059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6498E421CA687EA0022C059 /* Main.storyboard */; };
 		E6498E461CA687EA0022C059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6498E451CA687EA0022C059 /* Assets.xcassets */; };
 		E6498E491CA687EA0022C059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6498E471CA687EA0022C059 /* LaunchScreen.storyboard */; };
+		E6498E511CA68C0B0022C059 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6498E501CA68C0B0022C059 /* TextTableViewCell.swift */; };
+		E6498E531CA68C210022C059 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6498E521CA68C210022C059 /* ButtonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E6498E451CA687EA0022C059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6498E481CA687EA0022C059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6498E4A1CA687EA0022C059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6498E501CA68C0B0022C059 /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		E6498E521CA68C210022C059 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				E6498E3E1CA687EA0022C059 /* AppDelegate.swift */,
-				E6498E401CA687EA0022C059 /* ViewController.swift */,
-				E6498E421CA687EA0022C059 /* Main.storyboard */,
 				E6498E451CA687EA0022C059 /* Assets.xcassets */,
-				E6498E471CA687EA0022C059 /* LaunchScreen.storyboard */,
+				E6498E521CA68C210022C059 /* ButtonTableViewCell.swift */,
 				E6498E4A1CA687EA0022C059 /* Info.plist */,
+				E6498E471CA687EA0022C059 /* LaunchScreen.storyboard */,
+				E6498E421CA687EA0022C059 /* Main.storyboard */,
+				E6498E501CA68C0B0022C059 /* TextTableViewCell.swift */,
+				E6498E401CA687EA0022C059 /* ViewController.swift */,
 			);
 			path = FloatButton;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6498E511CA68C0B0022C059 /* TextTableViewCell.swift in Sources */,
 				E6498E411CA687EA0022C059 /* ViewController.swift in Sources */,
 				E6498E3F1CA687EA0022C059 /* AppDelegate.swift in Sources */,
+				E6498E531CA68C210022C059 /* ButtonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanvavilov.FloatButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -264,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanvavilov.FloatButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
